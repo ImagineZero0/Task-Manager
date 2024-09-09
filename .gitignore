@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+
+# Editor and IDE generated files
+.vscode/
+.vs/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Frontend specific
+/task-manager-frontend/node_modules/
+/task-manager-frontend/build/
+/task-manager-frontend/coverage/
+
+/task-manager-backend/node_modules/
+/task-manager-backend/dist/
+/task-manager-backend/logs/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
